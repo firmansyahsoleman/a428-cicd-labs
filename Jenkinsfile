@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-            label 'fmon'
-    }
+    agent { label 'fmon'}
     stages {
         stage('Build') {
             steps {
